@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #b9deed, #efefef);
+}
+
+.container {
+    width: 700px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 8px 5px;
+    margin-bottom: 10px;
+    outline: 0;
+}
+
+.container-btn button {
+    background-color: cadetblue;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 5px;
+    color: white;
+}
+
+.container-btn button:hover, .contact-list button:hover {
+    background-color: rgb(78, 123, 124);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.container-search input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-list{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.contact-list input{
+    padding: 5px;
+    width: 150px;
+}
+.contact-list button{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+
+}
+.hide{
+    display: none;
+}

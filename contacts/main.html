@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Мои контакты</h1>
+        <div class="container-form">
+            <input type="text" placeholder="Имя" id="name">
+            <input type="text" placeholder="Телефон" id="tel">
+            <input type="text" placeholder="Email" id="email">
+        </div>
+        <div class="container-btn">
+            <button onclick="addOrUpdateContact()">Добавить/Обновить</button>
+        </div>
+        <div class="container-search">
+            <input type="search" name="" id="search" oninput="searchBar()" placeholder="Find out the users">
+        </div>
+        <ul class="contact-list" id="contactList">
+        </ul>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
